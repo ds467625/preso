@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">We strive for seamless verification without compromising security</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proof_text">In order to completed your registration Please upload a copy of our identity with A clear selfie photo to proof the document holder.</string>
+    <string name="accept_text">We accept<br /> only ID card, Passport, Driving License</string>
+
+
+</resources>
