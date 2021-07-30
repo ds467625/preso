@@ -11,3 +11,11 @@ allprojects {
 		}
 }
 ```
+
+> Step 2 : Add the Dependency
+
+```
+dependencies {
+		implementation 'com.github.User:Repo:Tag'
+}
+```
