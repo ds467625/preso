@@ -16,6 +16,6 @@ allprojects {
 
 ```
 dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		implementation 'com.github.ds467625:preso:1.0'
 }
 ```
