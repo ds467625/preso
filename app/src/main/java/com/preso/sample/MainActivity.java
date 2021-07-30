@@ -3,6 +3,7 @@ package com.preso.sample;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.preso.samkyc.KYClient;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements OnKycListener {
 
         KYClient.setOnKycListener(this);
 
-        KYClient.launchKYC(this);
+
 
     }
 
@@ -29,5 +30,9 @@ public class MainActivity extends AppCompatActivity implements OnKycListener {
     @Override
     public void onKycFailure() {
         Toast.makeText(this, "Failure", Toast.LENGTH_SHORT).show();
+    }
+
+    public void next(View view) {
+        KYClient.launchKYC(this);
     }
 }

@@ -41,7 +41,7 @@ public class KYCAcitvity extends AppCompatActivity {
 
         viewPager = findViewById(R.id.viewpager);
         //hide the toolbar if any tool bar is present
-        getSupportActionBar().hide();
+       if(getSupportActionBar() != null) getSupportActionBar().hide();
 
         // get window of acitvity
         Window window = getWindow();
